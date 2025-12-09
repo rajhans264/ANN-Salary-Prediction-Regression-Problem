@@ -1,0 +1,7 @@
+# CREATE VIRTUAL ENVIRONMENT : conda create -p venv2 python=3.11
+                    ACTIVATE : conda activate "F:\GENERATIVE AI\3_DL_FOR_NLP\2_ANN-Regeression-Project\venv2"
+                  DEACTIVATE : conda deactivate
+
+# INSTALLING REQUIREMENTS : pip install -r requirements.txt
+
+# DEPLOYED AT : https://ann-salary-prediction-regression-problem-horzivyomij6znzamb5gr.streamlit.app/
