@@ -99,15 +99,12 @@ input_data_scaled = scaler.transform(input_data)
 
 # Make prediction
 prediction = model.predict(input_data_scaled)
-# prediction_proba = prediction[0][0]
 
 # Display the result
 st.subheader('Salary Prediction')
 st.write(f'Predicted Salary: {prediction[0][0]:.2f}')
-# if prediction_proba > 0.5:
-#     st.write('The customer is likely to churn.')
-# else:
-#     st.write('The customer is not likely to churn.')
 
 
 # to run the app, use the command: streamlit run app2.py
+
+# https://ann-salary-prediction-regression-problem-horzivyomij6znzamb5gr.streamlit.app/
